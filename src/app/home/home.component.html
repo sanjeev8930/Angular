@@ -1,0 +1,27 @@
+<div class="container main bg-white p-4 mt-3" style="border-radius: 40px; margin-bottom: 80px;">    
+    <h4 class="text-center font-weight-light text-body"><ins> <span class="font-weight-bold ">OUR COMMUNITY</span> HAS TO SAY <span class="font-weight-bold">HOME US</span></ins></h4>
+    <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "default" color = "#fff" type = "ball-grid-pulse" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
+       <table class="table table-hover mt-4">
+        <thead class="bg-light">
+            <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>User id</th>
+            <th>User id</th>
+            <th>User id</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let list of data">
+                <td>{{list.id}}</td>
+                <td>{{list.name}}</td>
+                <td>{{list.email}}</td>
+                <td>{{list.gender}}</td>
+                <td>{{list.created_at}}</td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    
+</div>

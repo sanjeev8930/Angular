@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularTen"
+    }
+  },
+  "defaultProject": "AngularTen",
+  "cli": {
+    "analytics": "4e17a613-2bdc-4064-8ac5-d762b4969f81"
+  }
 }
